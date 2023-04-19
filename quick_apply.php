@@ -49,7 +49,7 @@
                     </table>
 
                     <div class=" text-center">
-                    <a class="btn btn-primary text-center">View All</a>
+                    <a class="btn btn-primary text-center" href="alljobs.php">View All</a>
                     </div>
                 </div>
             </div>

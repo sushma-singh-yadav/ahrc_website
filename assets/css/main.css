@@ -40,6 +40,16 @@ footer, header, hgroup, menu, nav, section {
 .btn-warning{
 	background-color: #f59125 !important;
 }
+.service-bg
+{
+	background-color: #ffde7b !important;
+}
+.bottomText
+{
+	bottom: 17px;
+    position: absolute;
+}
+}
 .bg-warning{
 	background-color: #f59125 !important;
 }

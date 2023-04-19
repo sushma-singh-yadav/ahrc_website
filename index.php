@@ -1,15 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title> AHRC HR consultant - U Matter We Care </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" /> -->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-	</head>
+<?php include('./layout/head.php');?>
 	
 	<style>
 	.nav-link {
@@ -19,74 +10,8 @@
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
+			<?php include('./layout/navbar.php');?>
 
-			<div class=" smallnavbar">
-			<div class="container ">
-				<nav class="navbar navbar-expand-lg">
-				<!-- <a class="navbar-brand" href="#">Navbar</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link smallNavTextColor" href="contact.php"><span class="fa fa-envelope-o"></span> hr@ahrc.co.in</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link smallNavTextColor" href="contact.php"><span class="fa fa-phone"></span> 8802020238 / 9811727993</a>
-					</li>
-					<li class="nav-item ">
-					</li>
-					</ul>
-					<a class="nav-link ml-auto smallNavTextColor" href="contact.php"> <span class="fa fa-map-pin"></span> Palam, New Delhi - 110045</a>
-				</div>
-				</nav>
-			</div>
-			</div>
-				<!-- Header -->
-				<div class="container">
-
-				   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#" style="    border-bottom: none;">
-									<img  class="fa fa-briefcase" src="images/ahrc_logo.png" style="width:250px;"/>							
-  
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" style=" justify-content: right;
-    width: 100%;">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-      </li>
-	  
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="about.html">About Us</a>
-          <a class="dropdown-item" href="our-services.html">Our Services</a>
-          <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" href="recruitment-process.html">Recruitment Process</a>
-        </div>
-      </li>
-	  
-      <li class="nav-item">
-        <a class="nav-link" href="upload_cv.php">Upload CV</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link " href="contact.php">Contact Us</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-				
-	</div>				
 				<!-- Menu end-->
 				<div class="jobSeekerBg">
 				<div class="container ">
@@ -106,56 +31,17 @@
 				</div>
 
 				<?php include('quick_apply.php');?>
-
-				<div class="container">
-				<!-- <marquee behavior="alternate" style="font-size:1.2em"
->One umbrella solution for all types of recruitment
-We make things easy for you!</marquee> -->
-
-				</div>
+				<?php include('services.php');?>
 				
  
 				<!-- Main -->
 					<div id="main">
-						<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-						  </ol>
-						  <div class="carousel-inner">
-						  
-						    <div class="carousel-item active">
-							  <img class="d-block w-100" style=" height:300px" src="images/slide3.jpeg" alt="Second slide">
-							</div>
-							
-						    <div class="carousel-item">
-						      <img class="d-block w-100" src="images/slide1.jpeg" style=" height:300px" alt="First slide">
-						    </div>
-							
-							<div class="carousel-item">
-						      <img class="d-block w-100" src="images/slide2.jpeg" style=" height:300px" alt="third slide">
-						    </div>
-							
-						  </div>
-						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
-						  </a>
-						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-						  </a>
-						</div> -->
-
 						<br>
 						<br>
 
 						<div class="inner">
 							<!-- About Us -->
-							<header id="inner">
-								<!-- <h1>Find your perfect job!</h1> -->
+							<!-- <header id="inner">
 								<p>AHRC Pvt Ltd.’s staff have massive experience in manpower placement in India or providing quality staff like Administrator, 
 								   Front office, Back Office, Accounts, HR, Tele-Calling, Business Development/Marketing, IT (Software, Hardware/Networking) in 
 								   various industries, i.e. Corporate Industry, IT Industry, BPO Industry, Manufacturing industry, Fashion/Garments Industry, 
@@ -168,52 +54,7 @@ We make things easy for you!</marquee> -->
 								   This combined with our role as trusted consultants for Indian professionals translates into our core capability – Building Careers. 
 								   Building Organiz</p>
 
-							</header>
-                     
-							
-							
-
-							<!-- Jobs -->
-							<!-- <section class="tiles">
-							
-							
-							        
-									
-									<div class="col-md-12 text-center"><h1 >Our Process</h1></div>
-									
-							
-									<div class="row">
-										<div class="col-sm-4 text-center">
-											<img src="images/startup-g4ad37d453_640.jpg" class="img-fluid" alt="" />
-
-											<h2 class="m-n"><a href="#">PLANNING</a></h2>
-
-											<p> </p>
-										</div>
-
-										<div class="col-sm-4 text-center">
-											<img src="images/blog-1-720x480.jpg" class="img-fluid" alt="" />
-
-											<h2 class="m-n"><a href="#">IMPLEMENTATION</a></h2>
-
-											<p> </p>
-										</div>
-
-										<div class="col-sm-4 text-center">
-											<img src="images/blog-3-720x480.jpg" class="img-fluid" alt="" />
-
-											<h2 class="m-n"><a href="#">CLOSURE</a></h2>
-
-											<p> </p>
-										</div>
-									</div>
-
-							</section>
-
-							<p class="text-center"><a href="blog.html">Read More &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>  -->
-							
-							
-							
+							</header>							 -->
 							
 							<h2 class="h2 text-center">Our Process</h2>
 							
@@ -251,30 +92,7 @@ We make things easy for you!</marquee> -->
 							<br>
 						    <br>
 							
-							<div class="row">
-								
-								    <div class="col-md-5 offset-md-1">
-									
-									  <img src="images/what_we_offer.jpg" class="img-fluid" alt="" /> 
-									
-									</div>
-									
-									
-									<div class="col-md-5">
-									
-									  <p>
-									    AHRC Pvt Ltd.’s staff have massive experience in manpower placement in India or 
-										roviding quality staff like Administrator, Front office, Back Office, Accounts, 
-										HR, Tele-Calling, Business Development/Marketing, IT (Software, Hardware/Networking) in various industries, 
-										i.e. Corporate Industry, IT Industry, 
-										BPO Industry, Manufacturing industry, Fashion/Garments Industry, Banking and Financial Industry, Trading Industry, Retail, Printing, 
-										FMCG Industry, Automobile and many more.
-									  </p>
-									
-									</div>
-								
-							</div>
-							
+							<?php include('what-we-offer.php');?>
 							<br>
 							
 							
@@ -481,15 +299,7 @@ We make things easy for you!</marquee> -->
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-			<!-- <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			
+		<?php include './layout/footer.php';?>
 			
 			
 			<script>
