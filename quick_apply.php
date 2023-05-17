@@ -3,12 +3,14 @@
         'title' => 'Direct Sales Executive',
         'location' => 'Gurgaon',
         'experience' => '3+ years',
+        'mandatory_skills' => '',
         'posted_on' => '17-03-2023'
     ];
     $job2 = [
         'title' => 'Direct Sales Executive',
         'location' => 'Gurgaon',
         'experience' => '3+ years',
+        'mandatory_skills' => '',
         'posted_on' => '17-03-2023'
     ];
     $jobs = [
@@ -28,7 +30,7 @@
                                 <th>Job title</th>
                                 <th>Location</th>
                                 <th>Experience</th>
-                                <th>Posted On</th>
+                                <th>Mandatory Skills</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -41,7 +43,7 @@
                                 <td><?php echo $job['title'];?></td>
                                 <td><?php echo $job['location'];?></td>
                                 <td><?php echo $job['experience'];?></td>
-                                <td><?php echo $job['posted_on'];?></td>
+                                <td><?php echo $job['mandatory_skills'];?></td>
                                 <td><button class="btn btn-warning">Apply</button></td>
                             </tr>
                                 <?php } ?>

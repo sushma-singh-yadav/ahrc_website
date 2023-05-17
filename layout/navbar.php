@@ -21,7 +21,7 @@
 				<div class="container">
 
 				   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#" style="    border-bottom: none;">
+  <a class="navbar-brand" href="/" style="    border-bottom: none;">
 									<img  class="fa fa-briefcase" src="images/ahrc_logo.png" style="width:250px;"/>							
   
   </a>

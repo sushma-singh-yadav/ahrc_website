@@ -25,6 +25,9 @@ footer, header, hgroup, menu, nav, section {
 .smallnavbar{
 	background-color: #2aa8e3;
 }
+.justifycontent{
+	text-align: justify;
+}
 .ml-auto{
 	margin-left: auto !important;
 }
@@ -37,6 +40,16 @@ footer, header, hgroup, menu, nav, section {
 .text-warning{
 	color: #f59125 !important;
 }
+	.btn-outline-warning {
+		color: #f59125;
+		border-color: #f59125;
+	}
+	.btn-outline-warning:hover {
+		/* color: #212529; */
+		background-color: #f59125;
+		border-color: #f59125;
+		     box-shadow: none;
+	}
 .btn-warning{
 	background-color: #f59125 !important;
 }
@@ -53,6 +66,69 @@ footer, header, hgroup, menu, nav, section {
 	background-image: url('../../images/footer-bg2.jpeg');
 	background-size: cover;
 	background-position-x: center;
+}
+.team-para
+{
+	margin: auto;
+  padding: 10px;
+}
+.teamSection
+{
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	color: black;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cv-upload{
+	color: black;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/* background: rgb(17,135,187);
+background: radial-gradient(circle, rgba(17,135,187,0.7497592787114846) 0%, rgba(0,14,42,0.671327906162465) 100%); */
+
+	/* background: rgb(17,135,187);
+background: radial-gradient(circle, rgba(17,135,187,1) 0%, rgba(0,14,42,0.671327906162465) 100%); */
+
+	/* background: rgb(17,135,187);
+background: radial-gradient(circle, rgba(17,135,187,1) 0%, rgba(0,14,42,1) 100%); */
+	/* background: rgb(42,168,224);
+background: radial-gradient(circle, rgba(42,168,224,1) 0%, rgba(46,83,157,1) 100%); */
+	/* background-image: url('../../images/home-banner.jpeg');
+	background-size: cover;
+	background-position-x: center; */
+}
+.Teamesection{
+	/* background:  url('../../images/home-banner-2.jpeg'); */
+	/* background-color: lightgray; */
+}
+.Teamesection p{
+	text-align: justify;
+}
+.team-img-responsive img{
+	width: 100%;
+	/* border: 1px solid orange; */
+    border-radius: 10px;
+	/* padding-right: 20px; */
+}
+.Servicesection img{
+    height: 234px;
+    object-fit: contain;
+  }
+  #footer .inner{
+    margin: 0 auto;
+    padding: 0 2.5em;
+  }
+  .pageheading{
+	  padding: 20px;
+	  background-image: url('../../images/industry.jpeg');
+		background-size: cover;
+		background-position-x: center;
+  }
+  .pageheading a{
+	  color: #f59125;
+  }
+  .pageheading a:hover{
+	color: #fff !important;
 }
  .cv-upload-center{
 	margin: auto;
@@ -82,7 +158,7 @@ footer, header, hgroup, menu, nav, section {
 	bottom: 17px;
     position: absolute;
 }
-}
+
 .bg-warning{
 	background-color: #f59125 !important;
 }

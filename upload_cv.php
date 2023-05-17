@@ -1,73 +1,16 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>AHRC | Upload CV </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	
+	<?php include('./layout/head.php');?>
 	<style>
 	.nav-link {
     border-bottom: none!important;}
 	</style>
-	
-	<body class="is-preload" style="background:white;">
+	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
-      
-	          <!-- Header -->
-				<div class="container">
-				   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.php" style="    border-bottom: none;">
-									<img  class="fa fa-briefcase" src="images/ahrc_logo.png" style="width:250px;"/>							
-  
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" style=" justify-content: right;
-    width: 100%;">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-      </li>
-	  
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="about.html">About Us</a>
-          <a class="dropdown-item" href="our-services.html">Our Services</a>
-          <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" href="recruitment-process.html">Recruitment Process</a>
-        </div>
-      </li>
-	  
-      <li class="nav-item">
-        <a class="nav-link" href="upload_cv.php">Upload CV</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link " href="contact.php">Contact Us</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-				
-	</div>	
-	
-	<div class="container">
-				<marquee behavior="alternate" style="font-size:1.2em"
->One umbrella solution for all types of recruitment
-We make things easy for you!</marquee>
-
-				</div>
+				<!-- Header -->
+				<?php include('./layout/navbar.php');?>
 
 				<!-- Main -->
 					<div id="main">
@@ -142,11 +85,7 @@ We make things easy for you!</marquee>
 			
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script>
+		<?php include('./layout/page-footer.php');?>
 			
 <script>
 $(document).ready(function(){

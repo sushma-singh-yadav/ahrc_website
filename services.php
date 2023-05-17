@@ -1,33 +1,54 @@
+
 <div class="Servicesection service-bg">
 				<div class="container p-10">
 				<div class="row p-5">
 				<div class="col-md-12 ">
-                    <h4 class="text-center">Services We Offer </h4>
+                    <h4 class="text-center">Values, Strength, Client Benefits</h4>
 
 
                     <div class="card-deck">
   <div class="card">
     <img src="./images/service-1.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">HR Consultant</h5>
-      <p class="card-text">We are one of the well established name for providing different types of hr consultancy. We have achieved a lot of success as human resource agency located in Uttar Pradesh.....</p>
-      <p class="card-text bottomText"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h3 class="card-title">Values</h3>
+     
+        <ul>
+        <li>Excellence</li>
+<li>Sustainability</li>
+<li>Team work</li>
+<li>Integrity</li>
+<li>Delivery</li>
+<li>Respect</li>
+<li>Innovation</li>
+<li>Learning</li>
+        </ul>
+      <!-- <p class="card-text bottomText"><small class="text-muted">Last updated 3 mins ago</small></p> -->
     </div>
   </div>
   <div class="card">
     <img src="./images/service-2.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Manpower Recruitment</h5>
-      <p class="card-text">TWe at, AHRC Consultancy, are one of the leading manpower employment services providers. We have great services to offer you such as manpower recruitment, manpower placement etc...</p>
-      <p class="card-text bottomText"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h3 class="card-title">Strength</h3>
+      <ul>
+      <li>High level screening</li>
+<li>Large data bank (candidate of all level)</li>
+<li>Personalized service</li>
+<li>Quick response</li>
+      </ul>
+      <!-- <p class="card-text bottomText"><small class="text-muted">Last updated 3 mins ago</small></p> -->
     </div>
   </div>
   <div class="card">
     <img src="./images/service-3.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Placement Consultant</h5>
-      <p class="card-text">The company operates from Uttar Pradesh and we provide placement consultancy to job seekers - fresher and experienced professionals. </p>
-      <p class="card-text bottomText"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h3 class="card-title">Client benefits</h3>
+      <ul>
+      <li> quality candidates</li>
+<li>Phenomenal hit rates – time saving</li>
+<li>Better productivity</li>
+<li>Cost effective</li>
+<li>Response – we respond in real time</li>
+      </ul>
     </div>
   </div>
 </div>

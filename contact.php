@@ -1,159 +1,33 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>AHRC | Contact Us</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	
+	<?php include('./layout/head.php');?>
 	<style>
 	.nav-link {
     border-bottom: none!important;}
 	</style>
-	
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
-				<div class="container">
-				   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.php" style="    border-bottom: none;">
-									<img  class="fa fa-briefcase" src="images/ahrc_logo.png" style="width:250px;"/>							
-  
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" style=" justify-content: right;
-    width: 100%;">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-      </li>
-	  
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="about.html">About Us</a>
-          <a class="dropdown-item" href="our-services.html">Our Services</a>
-          <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" href="recruitment-process.html">Recruitment Process</a>
-        </div>
-      </li>
-	  
-      <li class="nav-item">
-        <a class="nav-link" href="upload_cv.php">Upload CV</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link " href="contact.php">Contact Us</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-				
-	</div>	
-
-				
-<div class="container">
-				<marquee behavior="alternate" style="font-size:1.2em"
->One umbrella solution for all types of recruitment
-We make things easy for you!</marquee>
-
-				</div>
-				
+				<?php include('./layout/navbar.php');?>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
 							<h3 class="text-center">Contact Us</h3>
-							<span class="image main"><img src="images/map_location.png" alt="" /></span>
+							<!-- <span class="image main"><img src="images/map_location.png" alt="" /></span> -->
 							<p></p>
+							<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=RZ - 26P/16, 3rd Floor Street Number 9, Indira Park, Palam, New Delhi, Delhi 110045&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div></div>
+							<!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=RZ - 26P/16, 3rd Floor Street Number 9, Indira Park, Palam, New Delhi, Delhi 110045&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div> -->
 						</div>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Contact Us</h2>
-								<div id="mymessage" style="color:red"></div>
-								<form action="" method="POST" id="myform" >
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" required />
-										</div>
-
-										<div class="field half">
-											<input type="text" name="email" id="email" placeholder="Email" required />
-										</div>
-										
-										<div class="field">
-											<input type="text" name="subject" id="subject" placeholder="Subject" required />
-										</div>
-
-										<div class="field">
-											<textarea name="message" id="message" rows="3" placeholder="Enter Message " required></textarea>
-										</div>
-
-										<div class="field text-right">
-											<label>&nbsp;</label>
-
-											<ul class="actions">
-												<li><input type="submit" name="submit" value="Send Message" class="primary" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-								
-								
-								<span id="my_loading_icon1" style="display:none">
-												<img src="images/please_wait.gif" width="100" height="80"/>
-                                                File Uploading ... 
-												</span>
-								
-							</section>
-							<section>
-								<h2>Contact Info</h2>
-
-								<ul class="alt">
-									<li><span class="fa fa-envelope-o"></span> <a href="#">hr@ahrc.co.in</a></li>
-									<li><span class="fa fa-phone"></span> 8802020238 / 9811727993  </li>
-									<li><span class="fa fa-map-pin"></span> RZ - 26P/16, 3rd Floor, Street No.9, Indira Park, Palam, New Delhi - 110045 </li>
-								</ul>
-
-								<h2>Follow Us</h2>
-
-								<ul class="icons">
-									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								</ul>
-							</section>
-
-							<ul class="copyright">
-								<li>Copyright © 2020 AHRC Pvt Ltd </li>
-								
-							</ul>
-						</div>
-					</footer>
+			
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script>
+		<?php include('./layout/page-footer.php');?>
 			
 			
 						<script>
