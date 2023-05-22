@@ -44,14 +44,14 @@
                                 <td><?php echo $job['location'];?></td>
                                 <td><?php echo $job['experience'];?></td>
                                 <td><?php echo $job['mandatory_skills'];?></td>
-                                <td><button class="btn btn-warning">Apply</button></td>
+                                <td><a class="btn btn-warning" href="/upload_cv.php">Apply</a></td>
                             </tr>
                                 <?php } ?>
                         </tbody>
                     </table>
 
                     <div class=" text-center">
-                    <a class="btn btn-primary text-center" href="alljobs.php">View All</a>
+                    <a class="btn btn-primary text-center" href="/candidate-zone.php">View All</a>
                     </div>
                 </div>
             </div>

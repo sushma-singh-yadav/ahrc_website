@@ -35,25 +35,30 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
-	  
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="about.php">About Us</a>
-          <a class="dropdown-item" href="our-services.html">Our Services</a>
-          <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" href="recruitment-process.html">Recruitment Process</a>
-        </div>
+
+      <li class="nav-item">
+        <a class="nav-link" href="candidate-zone.php">Candidate Zone</a>
       </li>
-	  
+      <li class="nav-item">
+        <a class="nav-link" href="employer-corner.php">Employer Corner</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="upload_cv.php">Upload CV</a>
       </li>
       
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link " href="contact.php">Contact Us</a>
+      </li> -->
+      	  
+	  <li class="nav-item dropdown">
+        <a class="nav-link " href="about.php" id="navbarDropdown"  aria-expanded="false">
+          About 
+        </a>
+        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.php">About Us</a>
+          <a class="dropdown-item" href="our-services.html">Our Services</a>
+          <a class="dropdown-item" href="recruitment-process.html">Recruitment Process</a>
+        </div> -->
       </li>
     </ul>
     

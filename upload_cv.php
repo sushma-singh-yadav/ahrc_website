@@ -11,21 +11,24 @@
 
 				<!-- Header -->
 				<?php include('./layout/navbar.php');?>
-
+				<div class="pageheading text-center mt-4">
+							<h1 class="mb-2">Upload CV</h1>
+							<p>  <a href="/" class="">Home</a>  <span>/  Upload CV</span></p>
+				</div>
 				<!-- Main -->
 					<div id="main">
-						<div class="inner">
-							<h3 class="text-center">Upload CV</h3>
+						<div class="inner mt-5">
+							<!-- <h3 class="text-center mt-4">Upload CV</h3> -->
 
 							
 
 							  <div class="row">
-							  <div class="col-md-3 col-sm-12">
+							  <div class="col-md-3 col-sm-12 p-3">
 							  <div class="image main">
 								 <img class="logo-image img-fluid" src="images/resume_photo.png" alt="AHRC PVT LTD" style="width:auto; height:300px;">
 							</div>
 							  </div>
-								<div class="col-md-9 col-sm-12">
+								<div class="col-md-9 col-sm-12 p-3">
 								    
 									
 									

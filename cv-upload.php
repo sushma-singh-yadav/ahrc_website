@@ -4,7 +4,7 @@
 								<div class="row p-5">
 									<div class="col-md-6 justifycontent">
                                     <h3 class=" mb-4">Click Here To Upload CV</h3>
-											<p>Do Post Your Resume and prepare for the upward ascent in the professional environment as your corporate life begins!
+											<p>Could not find relevant job, do not worry, send in your CV/resume and we will contact you back with relevant job openings
 											</p>
 									</div>
 									<div class="col-md-6 cv-upload-center text-center">

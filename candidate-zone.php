@@ -1,25 +1,30 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>AHRC | All Jobs Listing</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-
-    <body class="is-preload">
+<?php include('./layout/head.php');?>
+	
+	<style>
+	.nav-link {
+    border-bottom: none!important;}
+	</style>
+	
+	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
+			<?php include('./layout/navbar.php');?>
 <?php
      $alljobs = file_get_contents('./json/jobJson.json');
      $jobs = json_decode($alljobs);
 ?>
 				<!-- Header -->
+                <div class="pageheading text-center mt-4">
+							<h1 class="mb-2">Candidate Zone</h1>
+							<p>  <a href="/" class="">Home</a>  <span>/  Candidate Zone </span></p>
+				</div>
+
 				<div class="container">
-                <h4 class="text-center mb-0">Quick <span class="text-warning">Apply</span> </h4>
-                    <p class="text-center mb-4 text-secondary">We Are Well-Versed With The Different Job Opportunities.</p>
+				<div class="row">
+				<div class="col-md-12 p-5">
+                    <h4>All Jobs Listings</h4>
                 <table class="table table-bordered">
                         <thead class="bg-primary">
                             <tr >
@@ -40,12 +45,17 @@
                                 <td><?php echo $job->location;?></td>
                                 <td><?php echo $job->experience;?></td>
                                 <td><?php echo $job->posted_on;?></td>
-                                <td><button class="btn btn-warning">Apply</button></td>
+                                <td><a class="btn btn-warning" href="/upload_cv.php">Apply</a></td>
                             </tr>
                                 <?php } ?>
                         </tbody>
                     </table>
                 </div>
+                </div>
+                </div>
             </div>
-    </body>
+            <?php include('./layout/page-footer.php');?>
+
+
+</body>
 </html>
