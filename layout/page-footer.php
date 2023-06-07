@@ -1,4 +1,44 @@
-	<!-- Footer -->
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <form action="" method="POST" id="myform" >
+									<div class="fields mb-0">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" required />
+										</div>
+
+										<div class="field half">
+											<input type="text" name="email" id="email" placeholder="Email" required />
+										</div>
+										
+										<div class="field">
+											<input type="text" name="subject" id="subject" placeholder="Subject" required />
+										</div>
+
+										<div class="field">
+											<textarea name="message" id="message" rows="3" placeholder="Enter Message " required></textarea>
+										</div>
+
+										<div class="field text-right">
+											<button type="submit" name="submit" value="Send Message" class="btn btn-warning" >Send Message</button>
+										</div>
+									</div>
+								</form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
     <footer id="footer" class="footerbg">
 						<div class="inner">
 							<section class="text-white">
@@ -126,7 +166,12 @@ if(isset($_POST['submit']))
 		      $(document).ready(function(){
 				   location.href = "#";
                    location.href = "#mymessage"; 
-				   $('#mymessage').html('Your Message has been Sent. Thank you, We Will Contact you shortly');
+				   Swal.fire(
+					'Good job!',
+					'Your Message has been Sent. Thank you, We Will Contact you shortly',
+					'success'
+					)
+				   //$('#mymessage').html('Your Message has been Sent. Thank you, We Will Contact you shortly');
 			  });
 		   </script>
 		<?php
@@ -138,7 +183,12 @@ if(isset($_POST['submit']))
 		      $(document).ready(function(){
 				   location.href = "#";
                    location.href = "#mymessage"; 
-				   $('#mymessage').html('Please Fill All Fields');
+				   Swal.fire(
+					'Good job!',
+					'Please Fill All Fields',
+					'error'
+					)
+				  // $('#mymessage').html('Please Fill All Fields');
 			  });
 		   </script>
 		<?php
@@ -146,6 +196,5 @@ if(isset($_POST['submit']))
 }
 
 ?>
-
 
 

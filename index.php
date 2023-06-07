@@ -20,12 +20,15 @@
 					<div class="col-md-6 p15 text-white">
 						<h1>Job Seeker</h1>
 						<p>Apply for jobs from all industries for PAN INDIA locations.</p>
+						
 						<a class="btn btn-secondary btnBg" href="/upload_cv.php">Find Job</a>
 					</div>
 					<div class="col-md-6 p15 textAlignEnd text-white">
 						<h1 class="text-end">Employers</h1>
 						<p>We help you hire right talent through our recruitment process. We are keen to partner with your organization & ready to negotiate on terms.</p>
-						<a class="btn btn-secondary btnBg" href="/upload_cv.php">Contact Us</a>
+						<button type="button" class="btn btn-secondary btnBg" data-toggle="modal" data-target="#exampleModal">
+						Contact Us
+							</button>
 					</div>
 				</div>
 			</div>

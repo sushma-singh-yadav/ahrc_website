@@ -39,12 +39,12 @@
       <li class="nav-item">
         <a class="nav-link" href="candidate-zone.php">Candidate Zone</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="employer-corner.php">Employer Corner</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="upload_cv.php">Upload CV</a>
-      </li>
+      </li> -->
       
       <!-- <li class="nav-item">
         <a class="nav-link " href="contact.php">Contact Us</a>
